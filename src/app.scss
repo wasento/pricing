@@ -1,0 +1,40 @@
+$enable-rounded: false;
+$min-contrast-ratio: 3;
+$primary : #128C7E;
+$secondary : #075E54;
+$success : #21BA45;
+$danger : #C10015;
+$info : #31CCEC;
+$warning : #F2C037;
+@import "bootstrap/scss/bootstrap";
+.plan-price {
+	border-top: solid 0.1rem #F0F1F2;
+	border-left: solid 0.1rem #F0F1F2;
+	border-right: solid 0.1rem #F0F1F2;
+}
+.text-bg-Premium {
+	background-color: #f57c00;
+	color: #fff;
+}
+.text-bg-Enterprise {
+	background-color: #6a1b9a;
+	color: #fff;
+}
+.text-bg-Standard {
+	background-color: #0277bd;
+	color: #fff;
+}
+.text-bg-Basic {
+	background-color: $primary;
+	color: #fff;
+}
+.text-bg-grey {
+	background-color: #F7F7F7;
+}
+.text-success {
+	color: $success !important;
+	font-weight: bold;
+}
+ul.wasmall {
+	font-size: 0.8rem;
+}
