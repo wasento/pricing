@@ -167,7 +167,7 @@ export default defineComponent({
     },
     methods: {
         getData() {
-            axios.get('https://app.wasento.com/api/plan').then((response) => {
+            axios.get('https://api.wasento.com/api/plan').then((response) => {
                 this.rows = response.data.results
             }).catch((e) => {
             	console.log(e)
