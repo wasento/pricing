@@ -6,26 +6,19 @@ $success : #21BA45;
 $danger : #C10015;
 $info : #31CCEC;
 $warning : #F2C037;
+$nav-pills-link-active-bg: #21BA45;
 @import "bootstrap/scss/bootstrap";
 .plan-price {
 	border-top: solid 0.1rem #F0F1F2;
 	border-left: solid 0.1rem #F0F1F2;
 	border-right: solid 0.1rem #F0F1F2;
 }
-.text-bg-Premium {
-	background-color: #f57c00;
-	color: #fff;
-}
-.text-bg-Enterprise {
-	background-color: #6a1b9a;
-	color: #fff;
-}
-.text-bg-Standard {
+.text-bg-PREMIUM, a.text-bg-PREMIUM:hover {
 	background-color: #0277bd;
 	color: #fff;
 }
-.text-bg-Basic {
-	background-color: $primary;
+.text-bg-ENTERPRISE, a.text-bg-ENTERPRISE:hover {
+	background-color: #6a1b9a;
 	color: #fff;
 }
 .text-bg-grey {
